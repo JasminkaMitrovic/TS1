@@ -1,0 +1,3 @@
+<apex:page >
+    <h1>This page contains loan application list for the user</h1>
+</apex:page>

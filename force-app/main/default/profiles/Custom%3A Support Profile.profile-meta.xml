@@ -14,6 +14,22 @@
     <layoutAssignments>
         <layout>Application__c-Application Layout</layout>
     </layoutAssignments>
+    <pageAccesses>
+        <apexPage>EmployeeApplicationList</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>ReviewerListPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <tabVisibilities>
+        <tab>Applications</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Applications_for_Review</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
