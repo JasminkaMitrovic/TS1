@@ -14,6 +14,7 @@
         console.log("Handling Approval" );
       
         var application = component.get("v.referredApplication");
+        component.set("v.referredApplication.Status__c", "Approved");
         var updateEvent = component.getEvent("updateApplication");
         application.Status__c='Approved';
         updateEvent.setParams({ "application": application });
@@ -25,6 +26,7 @@
         console.log("Handling Rejection" );
         
         var application = component.get("v.referredApplication");
+        component.set("v.referredApplication.Status__c", "Rejected");
         var updateEvent = component.getEvent("updateApplication");
         application.Status__c='Rejected';
         updateEvent.setParams({ "application": application });

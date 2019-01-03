@@ -29,8 +29,7 @@
             <lightning:button label="Reject"
                               class="slds-m-top--medium"
                               variant="brand"
-                              onclick="{!c.handleRejection}"/>
-           
+                              onclick="{!c.handleRejection}"/>     
         </p>    
        
     </lightning:card>
