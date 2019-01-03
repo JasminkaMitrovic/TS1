@@ -32,14 +32,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 416,
             "modifiedTime": 1546524616528,
             "changeTime": 1546524616528,
-            "contentHash": "ec39b907571a7f0ec68d7132b1965653ae32cf31"
+            "contentHash": "ec39b907571a7f0ec68d7132b1965653ae32cf31",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -49,10 +49,10 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura",
             "isDirectory": true,
             "isMetadataFile": false,
-            "size": 288,
-            "modifiedTime": 1546524616525,
-            "changeTime": 1546524616525,
-            "contentHash": "04c2c45fa13cffd8ae0b575901812b95bf693d08"
+            "size": 416,
+            "modifiedTime": 1546529263041,
+            "changeTime": 1546529263041,
+            "contentHash": "fcc9e556bc2168ee74ba0bf81690638d3327ff35"
         }
     ],
     [
@@ -151,53 +151,53 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/profiles/Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/profiles/Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 19172,
             "modifiedTime": 1546524616562,
             "changeTime": 1546524616562,
-            "contentHash": "6dbd2be3b80f9ce9c79dd5bf02d14521fe4701b6"
+            "contentHash": "6dbd2be3b80f9ce9c79dd5bf02d14521fe4701b6",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5303,
             "modifiedTime": 1546524616578,
             "changeTime": 1546524616578,
-            "contentHash": "08f5e0a559ac8e6bddd0d62b5a75e0a3b2846405"
+            "contentHash": "08f5e0a559ac8e6bddd0d62b5a75e0a3b2846405",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5641,
             "modifiedTime": 1546524616593,
             "changeTime": 1546524616593,
-            "contentHash": "3e7336315b7852e8054e8c21c377e20d51dcea9f"
+            "contentHash": "3e7336315b7852e8054e8c21c377e20d51dcea9f",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5303,
             "modifiedTime": 1546524616603,
             "changeTime": 1546524616603,
-            "contentHash": "08f5e0a559ac8e6bddd0d62b5a75e0a3b2846405"
+            "contentHash": "08f5e0a559ac8e6bddd0d62b5a75e0a3b2846405",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -528,14 +528,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication/employeeLoanApplication.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication/employeeLoanApplication.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1637,
             "modifiedTime": 1546524616524,
             "changeTime": 1546524616524,
-            "contentHash": "fb796543cce497ea148eb696b0cbc9bceac6b144"
+            "contentHash": "fb796543cce497ea148eb696b0cbc9bceac6b144",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -557,7 +557,7 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1546520725255,
+            "modifiedTime": 1546524616524,
             "changeTime": 1546511174446,
             "contentHash": "840906b0c1a9ab78141580f179fe2d42c19212c2",
             "isMetadataFile": false,
@@ -567,27 +567,27 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication/employeeLoanApplicationController.js",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication/employeeLoanApplicationController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 860,
             "modifiedTime": 1546524616523,
             "changeTime": 1546524616523,
-            "contentHash": "263dd987c3944b21f425991d53dec54fbdc7a38e"
+            "contentHash": "263dd987c3944b21f425991d53dec54fbdc7a38e",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication/employeeLoanApplicationHelper.js",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication/employeeLoanApplicationHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 594,
             "modifiedTime": 1546524616523,
             "changeTime": 1546524616523,
-            "contentHash": "3681a8ab9bad7fde88b577877f46cc2f2991394e"
+            "contentHash": "3681a8ab9bad7fde88b577877f46cc2f2991394e",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -619,14 +619,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationItem/applicationItem.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationItem/applicationItem.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 916,
             "modifiedTime": 1546524616521,
             "changeTime": 1546524616521,
-            "contentHash": "86cdadd3331a811c69e588cba8dba56ca9db21f9"
+            "contentHash": "86cdadd3331a811c69e588cba8dba56ca9db21f9",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -661,7 +661,7 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationItem",
             "isDirectory": true,
             "size": 160,
-            "modifiedTime": 1546513531895,
+            "modifiedTime": 1546524616521,
             "changeTime": 1546513531895,
             "contentHash": "4944dab2be9c3782ffb54e2dd92127fa543d4072",
             "isMetadataFile": false,
@@ -723,157 +723,339 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationForm/applicationForm.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationForm/applicationForm.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1546524616516,
             "changeTime": 1546524616516,
-            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7"
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationForm/applicationFormHelper.js",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationForm/applicationFormHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 232,
             "modifiedTime": 1546524616518,
             "changeTime": 1546524616518,
-            "contentHash": "0d3006b4842657360475b9d1944c922a30fc6bec"
+            "contentHash": "0d3006b4842657360475b9d1944c922a30fc6bec",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationForm/applicationForm.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationForm/applicationForm.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2444,
             "modifiedTime": 1546524616518,
             "changeTime": 1546524616518,
-            "contentHash": "4cc07b2aab93193a8fe66b232bd899554ab81ba7"
+            "contentHash": "4cc07b2aab93193a8fe66b232bd899554ab81ba7",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationForm/applicationFormController.js",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationForm/applicationFormController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 701,
             "modifiedTime": 1546524616518,
             "changeTime": 1546524616518,
-            "contentHash": "430c3749e036b6d184a1c3c9de0c7b671215ef14"
+            "contentHash": "430c3749e036b6d184a1c3c9de0c7b671215ef14",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationsItemUpdate/applicationsItemUpdate.evt-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationsItemUpdate/applicationsItemUpdate.evt-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1546524616525,
             "changeTime": 1546524616525,
-            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7"
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationsItemUpdate/applicationsItemUpdate.evt",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationsItemUpdate/applicationsItemUpdate.evt",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 106,
             "modifiedTime": 1546524616525,
             "changeTime": 1546524616525,
-            "contentHash": "bb70d94994498e63804dfdb83b586c6097bbd042"
+            "contentHash": "bb70d94994498e63804dfdb83b586c6097bbd042",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/flexipages/Employee_App_UtilityBar.flexipage-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/flexipages/Employee_App_UtilityBar.flexipage-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 507,
             "modifiedTime": 1546524616526,
             "changeTime": 1546524616526,
-            "contentHash": "cbc6fb97e108204689b35eaa15ede714ac237d71"
+            "contentHash": "cbc6fb97e108204689b35eaa15ede714ac237d71",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/applications/Employee_App.app-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/applications/Employee_App.app-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 610,
             "modifiedTime": 1546524616528,
             "changeTime": 1546524616528,
-            "contentHash": "44ca236f6c1903f0950f8f24c05db71ffdd02d4c"
+            "contentHash": "44ca236f6c1903f0950f8f24c05db71ffdd02d4c",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationForm",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationForm",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 192,
             "modifiedTime": 1546524616518,
             "changeTime": 1546524616518,
-            "contentHash": "0c4f4107cd3c809e663d9bd9d0f2e23c6e3ac60b"
+            "contentHash": "0c4f4107cd3c809e663d9bd9d0f2e23c6e3ac60b",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationsItemUpdate",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationsItemUpdate",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 128,
             "modifiedTime": 1546524616525,
             "changeTime": 1546524616525,
-            "contentHash": "2e504e86bd839d86787b25903d6ae99f428dd5ed"
+            "contentHash": "2e504e86bd839d86787b25903d6ae99f428dd5ed",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/flexipages",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/flexipages",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1546524616526,
             "changeTime": 1546524616526,
-            "contentHash": "b04367923003f709d65bd52395bcb9b4d85afc9f"
+            "contentHash": "b04367923003f709d65bd52395bcb9b4d85afc9f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/applications",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/applications",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1546524616528,
             "changeTime": 1546524616528,
-            "contentHash": "730fccd24b2fab15d894602fd707cbaaa2f9a457"
+            "contentHash": "730fccd24b2fab15d894602fd707cbaaa2f9a457",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/reviewerApplication/reviewerApplication.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/reviewerApplication/reviewerApplication.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1546529263035,
+            "changeTime": 1546529263035,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/reviewerApplication/reviewerApplication.cmp",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/reviewerApplication/reviewerApplication.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1367,
+            "modifiedTime": 1546529263036,
+            "changeTime": 1546529263036,
+            "contentHash": "db1cd05a1bbce61e4214b18d9cbdb748cca1c3e7"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/reviewerApplication/reviewerApplicationController.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/reviewerApplication/reviewerApplicationController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 868,
+            "modifiedTime": 1546529263037,
+            "changeTime": 1546529263037,
+            "contentHash": "fdbd059062bcdddd16b223b4a46df86aa7a758e2"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItem.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItem.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1546529263038,
+            "changeTime": 1546529263038,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItemController.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItemController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 357,
+            "modifiedTime": 1546529263038,
+            "changeTime": 1546529263038,
+            "contentHash": "a0f380fbb44a39716c6a334df052a8410e30ccab"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItem.cmp",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItem.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 748,
+            "modifiedTime": 1546529263039,
+            "changeTime": 1546529263039,
+            "contentHash": "e5bb939b0b0ded17be26dcc002d8af9e01008129"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsList.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsList.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1546529263039,
+            "changeTime": 1546529263039,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsList.cmp",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsList.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 439,
+            "modifiedTime": 1546529263040,
+            "changeTime": 1546529263040,
+            "contentHash": "09c736e9ddfb56b5bc8e3eff1ea75654bf288c34"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationReviewerApp/applicationReviewerApp.app-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationReviewerApp/applicationReviewerApp.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 228,
+            "modifiedTime": 1546529263041,
+            "changeTime": 1546529263041,
+            "contentHash": "5217b92ebc2fd18b1fa120b9e273319a153146a7"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationReviewerApp/applicationReviewerApp.app",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationReviewerApp/applicationReviewerApp.app",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1546529263041,
+            "changeTime": 1546529263041,
+            "contentHash": "2f0aeaef05059a07ca512afcdad805b0c1e7e826"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/reviewerApplication",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/reviewerApplication",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1546529263037,
+            "changeTime": 1546529263037,
+            "contentHash": "bb34d25107e15b76daf18f21ce61c6cf1f8dac4c"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 160,
+            "modifiedTime": 1546529263039,
+            "changeTime": 1546529263039,
+            "contentHash": "b01e4727e52a4a79e5805a2b4126f02f71b523dc"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1546529263040,
+            "changeTime": 1546529263040,
+            "contentHash": "934454bd9c33fa790c2daff9b1fd1991e3ea0181"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationReviewerApp",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/applicationReviewerApp",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1546529263041,
+            "changeTime": 1546529263041,
+            "contentHash": "f46c9698b07419e900465eb4f77b34b64081b958"
         }
     ]
 ]
