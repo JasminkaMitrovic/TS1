@@ -1,0 +1,10 @@
+<aura:component>
+    <aura:attribute name="applications" type="Application__c[]"/>
+    <lightning:card title="Applications">
+        <p class="slds-p-horizontal--small">
+            <aura:iteration items="{!v.applications}" var="application">
+                <c:applicationItem application="{!application}"/>
+            </aura:iteration>
+        </p>
+    </lightning:card>
+</aura:component>

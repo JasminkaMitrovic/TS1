@@ -15,7 +15,8 @@
 		default="{ 'sobjectType': 'Application__c',
         	'Loan_Amount__c': 0,
             'Loan_Period__c': '',
-            'Salary__c': 0}"/>
+            'Salary__c': 0,
+            'Status__c': 'Submitted'}"/>
     
     <!-- PAGE HEADER -->
     <lightning:layout class="slds-page-header slds-page-header--object-home">
@@ -89,5 +90,8 @@
     
     <!-- Alternativelly, if there is a curent Loan, the details will be shown
          here instead of the new application form. -->
+    
+    <c:applicationsList applications="{!v.applications}"/>
+
     
 </aura:component>
