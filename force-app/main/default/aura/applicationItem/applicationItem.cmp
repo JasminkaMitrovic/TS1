@@ -3,7 +3,7 @@
     <!-- <aura:attribute name="formatdate" type="Date"/> -->
     <aura:attribute name="application" type="Application__c"/>
 
-    <lightning:card title="Some title here..." iconName="standard:scan_card">
+    <lightning:card title="Your application details" iconName="standard:scan_card">
         <aura:set attribute="footer">
             <p>Status: {!v.application.Status__c}</p>
             <!--

@@ -1,14 +1,10 @@
 <aura:component implements="force:appHostable" controller="ApplicationsController">
     <aura:attribute name="applications" type="Application__c[]"/>
-	<aura:attribute name="newApplication" type="Application__c"
-		default="{ 'sobjectType': 'Application__c',
-        	'Loan_Amount__c': 0,
-            'Loan_Period__c': '',
-            'Salary__c': 0,
-            'Status__c': 'Submitted'}"/>
-    
+	
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
-
+    
+    <aura:handler name="createApplication" event="c:applicationsItemUpdate"
+    	action="{!c.handleCreateApplication}"/>
     
     <!-- PAGE HEADER -->
     <lightning:layout class="slds-page-header slds-page-header--object-home">
@@ -27,66 +23,18 @@
     <!-- NEW APPLICATION FORM -->
     <lightning:layout>
         <lightning:layoutItem padding="around-small" size="6">
-        <!-- [[ application form goes here ]] -->
-       
-            <!-- CREATE NEW APPLICATION -->
-    <div aria-labelledby="newexpenseform">
-        <!-- BOXED AREA -->
-        <fieldset class="slds-box slds-theme--default slds-container--small">
-        <legend id="newexpenseform" class="slds-text-heading--small 
-          slds-p-vertical--medium">
-          Apply for Loan
-        </legend>
-  
-        <!-- CREATE NEW APPLICATION FORM -->
-        <form class="slds-form--stacked">          
-           
-            <lightning:input type="number" aura:id="expenseform" label="Amount"
-                             name="expenseamount"
-                             min="0.1"
-                             formatter="currency"
-                             step="0.01"
-                             value="{!v.newApplication.Loan_Amount__c}"
-                             messageWhenRangeUnderflow="The amount must be between 1000 and 5000."
-                             required="true"/>
-            <lightning:input aura:id="expenseform" label="Loan period"
-                             name="expenseclient"
-                             value="{!v.newApplication.Loan_Period__c}"
-                             placeholder=""
-                             required="true"/>
-            <lightning:input type="number" aura:id="expenseform" label="Your salary"
-                             name="expenseamount"
-                             min="0.1"
-                             formatter="currency"
-                             step="0.01"
-                             value="{!v.newApplication.Salary__c}"
-                             messageWhenRangeUnderflow="Please enter your salary."
-                             required="true"/>
-            
-            <lightning:button label="Submit your application" 
-                              class="slds-m-top--medium"
-                              variant="brand"
-                              onclick="{!c.clickCreate}"/>
-        </form>
-        <!-- / CREATE NEW APPLICATION FORM -->
-  
-      </fieldset>
-      <!-- / BOXED AREA -->
-    </div>
-    <!-- / CREATE NEW APPLICATION -->    
-            
-       
-            
-            
-            
+        	<c:applicationForm/>
         </lightning:layoutItem>
     </lightning:layout>
     <!-- / NEW APPLICATION FORM -->
     
     <!-- Alternativelly, if there is a curent Loan, the details will be shown
          here instead of the new application form. -->
-    
-    <c:applicationsList applications="{!v.applications}"/>
-
+    <lightning:layout>
+    	<lightning:layoutItem padding="around-small" size="6">
+        	<c:applicationsList applications="{!v.applications}"/>
+    	</lightning:layoutItem>
+        <lightning:layoutItem padding="around-small" size="6"/>
+	</lightning:layout>
     
 </aura:component>
