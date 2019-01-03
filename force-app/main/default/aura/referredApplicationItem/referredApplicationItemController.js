@@ -9,4 +9,27 @@
         }
         */
     },
+    
+    handleApproval : function(component, event, helper) {
+        console.log("Handling Approval" );
+      
+        var application = component.get("v.referredApplication");
+        var updateEvent = component.getEvent("updateApplication");
+        application.Status__c='Approved';
+        updateEvent.setParams({ "application": application });
+        updateEvent.fire();
+        
+    },
+    
+    handleRejection : function(component, event, helper) {
+        console.log("Handling Rejection" );
+        
+        var application = component.get("v.referredApplication");
+        var updateEvent = component.getEvent("updateApplication");
+        application.Status__c='Rejected';
+        updateEvent.setParams({ "application": application });
+        updateEvent.fire();
+       
+    },
+    
 })

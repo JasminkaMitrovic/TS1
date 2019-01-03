@@ -1,4 +1,4 @@
-<aura:component implements="force:appHostable" controller="ApplicationsController">
+<aura:component implements="force:appHostable" controller="ReferredApplicationsController">
     <aura:attribute name="referredApplications" type="Application__c[]"/>
 	
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
