@@ -1,22 +1,14 @@
-<!--
-<aura:component implements="force:appHostable" >
-    <div>
-    	<c:applyForLoan/>
-    </div>
-    <div>
-    	<c:myApplicationsList/>
-    </div>
-</aura:component>
--->
-<aura:component implements="force:appHostable">
+<aura:component implements="force:appHostable" controller="ApplicationsController">
     <aura:attribute name="applications" type="Application__c[]"/>
-
 	<aura:attribute name="newApplication" type="Application__c"
 		default="{ 'sobjectType': 'Application__c',
         	'Loan_Amount__c': 0,
             'Loan_Period__c': '',
             'Salary__c': 0,
             'Status__c': 'Submitted'}"/>
+    
+    <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
+
     
     <!-- PAGE HEADER -->
     <lightning:layout class="slds-page-header slds-page-header--object-home">
@@ -55,18 +47,21 @@
                              formatter="currency"
                              step="0.01"
                              value="{!v.newApplication.Loan_Amount__c}"
-                             messageWhenRangeUnderflow="The amount must be between 1000 and 5000."/>
+                             messageWhenRangeUnderflow="The amount must be between 1000 and 5000."
+                             required="true"/>
             <lightning:input aura:id="expenseform" label="Loan period"
                              name="expenseclient"
                              value="{!v.newApplication.Loan_Period__c}"
-                             placeholder=""/>
+                             placeholder=""
+                             required="true"/>
             <lightning:input type="number" aura:id="expenseform" label="Your salary"
                              name="expenseamount"
                              min="0.1"
                              formatter="currency"
                              step="0.01"
                              value="{!v.newApplication.Salary__c}"
-                             messageWhenRangeUnderflow="Please enter your salary."/>
+                             messageWhenRangeUnderflow="Please enter your salary."
+                             required="true"/>
             
             <lightning:button label="Submit your application" 
                               class="slds-m-top--medium"
