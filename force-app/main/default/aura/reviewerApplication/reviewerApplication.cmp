@@ -7,7 +7,6 @@
     <aura:handler name="createApplication" event="c:applicationsItemUpdate"
     	action="{!c.handleCreateApplication}"/>
     
-    
     <!-- PAGE HEADER -->
     <lightning:layout class="slds-page-header slds-page-header--object-home">
         <lightning:layoutItem>

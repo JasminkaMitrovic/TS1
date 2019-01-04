@@ -30,9 +30,22 @@ public with sharing class ApplicationsController {
     public static Application__c saveApplication(Application__c application) {
         
         System.debug('Executing ApplicationsController.saveApplication()');
+        Application__c updatedApplication = makeDecision(application);
         
         // Perform isUpdatable() checking first, then
-        upsert application;
+        upsert updatedApplication;
+        return updatedApplication;
+    }
+    
+    private static Application__c makeDecision(Application__c application) {
+        if (application.Loan_Amount__c > 5000) {
+            application.Status__c = 'Rejected';
+        } else if (application.Loan_Amount__c > 2000) {
+        	application.Status__c = 'Referred';            
+        } else {
+            // TODO: Check that there is no Approved already there for this user!
+            application.Status__c = 'Approved';
+        }
         return application;
     }
 }

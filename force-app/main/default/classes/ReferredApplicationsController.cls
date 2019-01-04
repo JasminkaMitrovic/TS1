@@ -22,7 +22,8 @@ public with sharing class ReferredApplicationsController {
         }
         
         return [SELECT Id, Name, CreatedById, Loan_Amount__c, Loan_Period__c, Status__c, Credit_R__c, Salary__c
-                FROM Application__c];
+                FROM Application__c
+               	WHERE Status__c='Referred'];
     }
     
     @AuraEnabled

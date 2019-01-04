@@ -22,17 +22,9 @@
     </lightning:layout>
     <!-- / PAGE HEADER -->
     
-    <!-- Alternativelly, if there is a curent Loan, the details will be shown
-         here instead of the new application form. -->
+    <!-- If there is a curent Loan, the details will be shown
+         here. Otherwise show the New application form. -->
     
-    <!--
-    <aura:if isTrue="{!$Browser.isIPhone}">
-        <p><c:helloMessage message="{!v.messages[0]}"/></p>
-    	<aura:set attribute="else">
-        	<p><c:helloMessage message="{!v.messages[1]}"/></p>
-        </aura:set>
-    </aura:if>
-    -->
     <aura:if isTrue="{!v.approvedExistsInd}">
         <!-- SHOW CURRENT APPLICATION DETAILS  -->
         <lightning:layout>
