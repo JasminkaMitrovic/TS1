@@ -7,7 +7,26 @@
         action.setCallback(this, function(response) {
             var state = response.getState();
             if (state === "SUCCESS") {
-                component.set("v.applications", response.getReturnValue());
+                console.log("Sucess!");
+                var applicationsList = response.getReturnValue();
+                
+                // Iterate returned applications and see if there is any with the 
+                // status of Approved. If so, set the 'approvedExistsInd' to true.
+                var approvedPositionIndex = -3;
+                for (var i = 0; i < applicationsList.length; i++) {
+                    if (applicationsList[i].Status__c == 'Approved') {
+                        component.set("v.approvedExistsInd", true);
+                        component.set("v.approvedApplication", applicationsList[i]);
+                        approvedPositionIndex = i;
+                        break;
+                    }
+                } 
+                
+                if (approvedPositionIndex > -3) {
+                    applicationsList.splice(approvedPositionIndex, 1);
+                }
+                
+                component.set("v.applications", applicationsList);
             }
             else {
                 console.log("Failed with state: " + state);

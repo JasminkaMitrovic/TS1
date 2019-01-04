@@ -1,5 +1,7 @@
 <aura:component implements="force:appHostable" controller="ApplicationsController">
     <aura:attribute name="applications" type="Application__c[]"/>
+    <aura:attribute name="approvedExistsInd" type="Boolean" />
+    <aura:attribute name="approvedApplication" type="Application__c"/>
 	
     <aura:handler name="init" action="{!c.doInit}" value="{!this}"/>
     
@@ -20,16 +22,36 @@
     </lightning:layout>
     <!-- / PAGE HEADER -->
     
-    <!-- NEW APPLICATION FORM -->
-    <lightning:layout>
-        <lightning:layoutItem padding="around-small" size="6">
-        	<c:applicationForm/>
-        </lightning:layoutItem>
-    </lightning:layout>
-    <!-- / NEW APPLICATION FORM -->
-    
     <!-- Alternativelly, if there is a curent Loan, the details will be shown
          here instead of the new application form. -->
+    
+    <!--
+    <aura:if isTrue="{!$Browser.isIPhone}">
+        <p><c:helloMessage message="{!v.messages[0]}"/></p>
+    	<aura:set attribute="else">
+        	<p><c:helloMessage message="{!v.messages[1]}"/></p>
+        </aura:set>
+    </aura:if>
+    -->
+    <aura:if isTrue="{!v.approvedExistsInd}">
+        <!-- SHOW CURRENT APPLICATION DETAILS  -->
+        <lightning:layout>
+        	<lightning:layoutItem padding="around-small" size="6">
+        		<c:approvedApplicationDetails approvedApplication = "{!v.approvedApplication}" />
+        	</lightning:layoutItem>
+    	</lightning:layout>
+        <!-- / SHOW CURRENT APPLICATION DETAILS  -->
+    	<aura:set attribute="else">
+        	<!-- NEW APPLICATION FORM -->
+    		<lightning:layout>
+        		<lightning:layoutItem padding="around-small" size="6">
+        			<c:applicationForm/>
+        		</lightning:layoutItem>
+    		</lightning:layout>
+    		<!-- / NEW APPLICATION FORM -->
+        </aura:set>
+    </aura:if>
+    
     <lightning:layout>
     	<lightning:layoutItem padding="around-small" size="6">
         	<c:applicationsList applications="{!v.applications}"/>

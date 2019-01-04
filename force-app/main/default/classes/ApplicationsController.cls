@@ -6,6 +6,7 @@ public with sharing class ApplicationsController {
 
     @AuraEnabled
     public static List<Application__c> getApplications() {
+        System.debug('Executing ApplicationsController.getApplications()');
         
         // Check to make sure all fields are accessible to this user
         String[] fieldsToCheck = new String[] {
@@ -27,6 +28,9 @@ public with sharing class ApplicationsController {
     
     @AuraEnabled
     public static Application__c saveApplication(Application__c application) {
+        
+        System.debug('Executing ApplicationsController.saveApplication()');
+        
         // Perform isUpdatable() checking first, then
         upsert application;
         return application;
