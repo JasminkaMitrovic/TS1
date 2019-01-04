@@ -7,7 +7,7 @@
 
     <lightning:card title="Awaiting review" iconName="standard:scan_card">
         <p class="slds-text-heading--medium slds-p-horizontal--small">
-           Applicant: {!v.referredApplication.CreatedById}
+           Applicant: {!v.referredApplication.Name}
         </p>
         <p class="slds-text-heading--medium slds-p-horizontal--small">
            Salary: <lightning:formattedNumber value="{!v.referredApplication.Salary__c}" style="currency"/>

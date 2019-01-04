@@ -38,6 +38,11 @@ public with sharing class ApplicationsController {
     }
     
     private static Application__c makeDecision(Application__c application) {
+        // Save user name on the Application__c.Name field?
+        User user = [select id,Name from User where id =: userInfo.getUserId()];
+		System.debug('Curent user: ' + user.Name);
+        application.Name = user.Name;
+        
         if (application.Loan_Amount__c > 5000) {
             application.Status__c = 'Rejected';
         } else if (application.Loan_Amount__c > 2000) {

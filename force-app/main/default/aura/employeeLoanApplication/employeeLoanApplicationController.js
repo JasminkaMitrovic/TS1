@@ -10,6 +10,10 @@
                 console.log("Sucess!");
                 var applicationsList = response.getReturnValue();
                 
+                if (applicationsList.length > 0) {
+                    component.set("v.userName", applicationsList[0].Name);
+                }
+                
                 // Iterate returned applications and see if there is any with the 
                 // status of Approved. If so, set the 'approvedExistsInd' to true.
                 var approvedPositionIndex = -3;
