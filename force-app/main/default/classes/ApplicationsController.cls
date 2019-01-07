@@ -22,8 +22,14 @@ public with sharing class ApplicationsController {
             }
         }
         
+        /*
+        User user = [select id,Name from User where id =: userInfo.getUserId()];
+		System.debug('Curent user: ' + user.Name);
+        */
+        
         return [SELECT Id, Name, CreatedById, Loan_Amount__c, Loan_Period__c, Status__c
-                FROM Application__c];
+                FROM Application__c 
+                WHERE OwnerId =: userInfo.getUserId()];
     }
     
     @AuraEnabled
