@@ -1341,10 +1341,10 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1",
             "isDirectory": true,
             "isMetadataFile": false,
-            "size": 352,
-            "modifiedTime": 1546853431182,
-            "changeTime": 1546853431182,
-            "contentHash": "2c6ed0677174e521dbffc7ff80b5f8861997e7b5",
+            "size": 320,
+            "modifiedTime": 1546856214450,
+            "changeTime": 1546856214450,
+            "contentHash": "dc80a4dbb45e5292a3477593a45a05962dc3b21f",
             "isWorkspace": true,
             "isArtifactRoot": false
         }
