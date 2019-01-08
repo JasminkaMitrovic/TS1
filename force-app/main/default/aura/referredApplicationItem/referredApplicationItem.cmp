@@ -2,8 +2,9 @@
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <!-- <aura:attribute name="formatdate" type="Date"/> -->
     <aura:attribute name="referredApplication" type="Application__c"/>
+    
     <aura:registerEvent name="updateApplication" type="c:applicationsItemUpdate"/>
-   
+    <aura:registerEvent name="getRating" type="c:applicationsItemUpdate"/>
 
     <lightning:card title="Awaiting review" iconName="standard:scan_card">
         <p class="slds-text-heading--medium slds-p-horizontal--small">
@@ -19,11 +20,18 @@
            Loan period (number of months): {!v.referredApplication.Loan_Period__c}
         </p>
         <p class="slds-text-heading--medium slds-p-horizontal--small">
+           Credit Rating: {!v.referredApplication.Credit_R__c}
+        </p>
+        <p class="slds-text-heading--medium slds-p-horizontal--small">
            Status: {!v.referredApplication.Status__c}
         </p>
         
         <aura:if isTrue="{!v.referredApplication.Status__c == 'Referred'}">
         	<p>
+                <lightning:button label="Get Credit Rating" 
+                              class="slds-m-top--medium"
+                              variant="brand"
+                              onclick="{!c.getCreditRating}"/>
     			<lightning:button label="Approve" 
                               class="slds-m-top--medium"
                               variant="brand"

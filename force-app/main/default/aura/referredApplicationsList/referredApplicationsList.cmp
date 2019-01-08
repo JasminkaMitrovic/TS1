@@ -4,6 +4,8 @@
     
     <aura:handler name="updateApplication" event="c:applicationsItemUpdate"
     	action="{!c.handleUpdateApplication}"/>
+    <aura:handler name="getRating" event="c:applicationsItemUpdate"
+    	action="{!c.handleGetRating}"/>
     
     <lightning:card title="Applications">
         <p class="slds-p-horizontal--small">
