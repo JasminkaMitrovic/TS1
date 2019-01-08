@@ -38,9 +38,7 @@
         console.log("Get Credit Rating");
         
         var application = component.get("v.referredApplication");
-        // component.set("v.referredApplication.Status__c", "Rejected");
         var getRatingEvent = component.getEvent("getRating");
-        //application.Status__c='Rejected';
         getRatingEvent.setParams({ "application": application });
         getRatingEvent.fire();
     },

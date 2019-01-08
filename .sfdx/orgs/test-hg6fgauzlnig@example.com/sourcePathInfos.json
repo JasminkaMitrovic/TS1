@@ -554,7 +554,7 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1546621529731,
+            "modifiedTime": 1546961928153,
             "changeTime": 1546621529731,
             "contentHash": "fc2b0f82256e649e67543909f4e62f127d2d3d3d",
             "isMetadataFile": false,
@@ -566,14 +566,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItem.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItem.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2277,
             "modifiedTime": 1546961928153,
             "changeTime": 1546961928153,
-            "contentHash": "78b4af0f40f2dbe609957f2b4711898a003342d1"
+            "contentHash": "78b4af0f40f2dbe609957f2b4711898a003342d1",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -598,10 +598,10 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItemController.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1759,
-            "modifiedTime": 1546961928151,
-            "changeTime": 1546961928151,
-            "contentHash": "28e9d9166be468d83f7f77cd55cce2c27744bb46"
+            "size": 1642,
+            "modifiedTime": 1546968581854,
+            "changeTime": 1546968581854,
+            "contentHash": "647986d5c8a6bb962411dd766f67d3b2aeaf369a"
         }
     ],
     [
@@ -625,7 +625,7 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1546551410928,
+            "modifiedTime": 1546961928111,
             "changeTime": 1546551410928,
             "contentHash": "e01c0506695bd47f64f1b902dfc0b816a68c0715",
             "isMetadataFile": false,
@@ -637,14 +637,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsList.cmp",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsList.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 751,
             "modifiedTime": 1546961928109,
             "changeTime": 1546961928109,
-            "contentHash": "a1f5b4ff0e9e2cc2c7406901ebd1f9e9b687bb27"
+            "contentHash": "a1f5b4ff0e9e2cc2c7406901ebd1f9e9b687bb27",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -665,14 +665,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsListController.js",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsListController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 343,
             "modifiedTime": 1546961928110,
             "changeTime": 1546961928110,
-            "contentHash": "c8c959bc7e0706fa9373c423af888939671b105c"
+            "contentHash": "c8c959bc7e0706fa9373c423af888939671b105c",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -682,10 +682,10 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsListHelper.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 878,
-            "modifiedTime": 1546961928111,
-            "changeTime": 1546961928111,
-            "contentHash": "f39e08c9ed698375be8918401594e19d853e37d4"
+            "size": 1490,
+            "modifiedTime": 1546968581838,
+            "changeTime": 1546968581838,
+            "contentHash": "f223b951977348f5c7bbea9da5c52b8bf6409268"
         }
     ],
     [
@@ -754,7 +754,7 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1546880384127,
+            "modifiedTime": 1546961928155,
             "changeTime": 1546621529733,
             "contentHash": "e34c1da255fe3e8b2e7f5b19e058b0cb6ab60dc5",
             "isMetadataFile": false,
@@ -794,14 +794,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/ReferredApplicationsController.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/ReferredApplicationsController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2480,
             "modifiedTime": 1546961928155,
             "changeTime": 1546961928155,
-            "contentHash": "2a6fed4165e5b894f32273ed26d9a62d8953e1f6"
+            "contentHash": "2a6fed4165e5b894f32273ed26d9a62d8953e1f6",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
