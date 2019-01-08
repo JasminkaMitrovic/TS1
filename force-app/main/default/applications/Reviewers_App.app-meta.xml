@@ -10,6 +10,8 @@
     <label>Reviewers App</label>
     <navType>Standard</navType>
     <tabs>For_Review</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Reviewers_App_UtilityBar</utilityBar>
 </CustomApplication>
