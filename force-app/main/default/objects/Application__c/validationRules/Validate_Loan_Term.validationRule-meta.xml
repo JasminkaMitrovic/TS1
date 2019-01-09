@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Loan_Term</fullName>
+    <active>true</active>
+    <errorConditionFormula>Loan_Period__c  &lt; 6 ||  Loan_Period__c  &gt; 12</errorConditionFormula>
+    <errorDisplayField>Loan_Period__c</errorDisplayField>
+    <errorMessage>Loan Period must be between 6 and 12 months.</errorMessage>
+</ValidationRule>

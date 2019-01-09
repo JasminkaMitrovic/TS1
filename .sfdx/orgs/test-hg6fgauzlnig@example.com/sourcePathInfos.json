@@ -419,7 +419,7 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1546621529729,
+            "modifiedTime": 1547031823898,
             "changeTime": 1546621529729,
             "contentHash": "840906b0c1a9ab78141580f179fe2d42c19212c2",
             "isMetadataFile": false,
@@ -461,14 +461,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication/employeeLoanApplicationController.js",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication/employeeLoanApplicationController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2430,
             "modifiedTime": 1547031823898,
             "changeTime": 1547031823898,
-            "contentHash": "2dcc94d7970d9c2cfb68e251e571bbc346a8e422"
+            "contentHash": "2dcc94d7970d9c2cfb68e251e571bbc346a8e422",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -752,7 +752,7 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1546961928155,
+            "modifiedTime": 1547031823927,
             "changeTime": 1546621529733,
             "contentHash": "e34c1da255fe3e8b2e7f5b19e058b0cb6ab60dc5",
             "isMetadataFile": false,
@@ -764,14 +764,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/ApplicationsController.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/ApplicationsController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 2862,
             "modifiedTime": 1547031823928,
             "changeTime": 1547031823928,
-            "contentHash": "828724560121f3441abc2ac8104ff03f54f85d90"
+            "contentHash": "828724560121f3441abc2ac8104ff03f54f85d90",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -968,16 +968,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/objects/Application__c",
         {
+            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/objects/Application__c",
             "isDirectory": true,
-            "size": 128,
-            "modifiedTime": 1546433923727,
-            "changeTime": 1546433923727,
-            "contentHash": "1e1b3bc66d750aedd99069f2f05234c243ba4a04",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 160,
+            "modifiedTime": 1547034992401,
+            "changeTime": 1547034992401,
+            "contentHash": "e5baf19c76493671bbb422461efd92a9fd673215"
         }
     ],
     [
@@ -1619,6 +1617,45 @@
             "contentHash": "ec79904731bd2836313e208c359ee366181b7ed6",
             "isMetadataFile": false,
             "state": "u"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/objects/Application__c/validationRules/Validate_Loan_Amount.validationRule-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/objects/Application__c/validationRules/Validate_Loan_Amount.validationRule-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 435,
+            "modifiedTime": 1547034992402,
+            "changeTime": 1547034992402,
+            "contentHash": "b3576abf451e9ada2ecc142bdb43c0a2850768cf"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/objects/Application__c/validationRules/Validate_Loan_Term.validationRule-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/objects/Application__c/validationRules/Validate_Loan_Term.validationRule-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 430,
+            "modifiedTime": 1547034992403,
+            "changeTime": 1547034992403,
+            "contentHash": "6cc59ed8e04441c6eaa00a974e8393f2022e016e"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/objects/Application__c/validationRules",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/objects/Application__c/validationRules",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1547034992403,
+            "changeTime": 1547034992403,
+            "contentHash": "998c6b593a18bcefd2ab9cb18d3bca10532ac422"
         }
     ]
 ]
