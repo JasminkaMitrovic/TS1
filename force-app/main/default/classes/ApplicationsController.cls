@@ -49,13 +49,21 @@ public with sharing class ApplicationsController {
 		System.debug('Curent user: ' + user.Name);
         application.Name = user.Name;
         
-        if (application.Loan_Amount__c > 5000) {
+        if (application.Loan_Amount__c > 5000 || application.Loan_Amount__c < 1000 ) {
+            application.Status__c = 'Rejected';
+        } else if (application.Loan_Period__c < 6 || application.Loan_Period__c > 12 ) {
             application.Status__c = 'Rejected';
         } else if (application.Loan_Amount__c > 2000) {
         	application.Status__c = 'Referred';            
         } else {
-            // TODO: Check that there is no Approved already there for this user!
-            application.Status__c = 'Approved';
+            // Check that there is no Approved already there for this user!
+            Application__c[] approvedApplications = 
+                [SELECT Id FROM Application__c WHERE (Status__c = 'Approved' AND Name =: user.Name)]; 
+            if (approvedApplications.size() > 0) {
+                application.Status__c = 'Referred';
+            } else {        
+            	application.Status__c = 'Approved';
+            }
         }
         return application;
     }

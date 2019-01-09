@@ -461,16 +461,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication/employeeLoanApplicationController.js",
         {
+            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/employeeLoanApplication/employeeLoanApplicationController.js",
             "isDirectory": false,
-            "size": 1937,
-            "modifiedTime": 1546621529728,
-            "changeTime": 1546621529728,
-            "contentHash": "ae5a7560da5a9f88fda130c5d24eff9d43a9bcd6",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 2430,
+            "modifiedTime": 1547031823898,
+            "changeTime": 1547031823898,
+            "contentHash": "2dcc94d7970d9c2cfb68e251e571bbc346a8e422"
         }
     ],
     [
@@ -554,7 +552,7 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1546961928153,
+            "modifiedTime": 1546968581854,
             "changeTime": 1546621529731,
             "contentHash": "fc2b0f82256e649e67543909f4e62f127d2d3d3d",
             "isMetadataFile": false,
@@ -594,14 +592,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItemController.js",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationItem/referredApplicationItemController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1642,
             "modifiedTime": 1546968581854,
             "changeTime": 1546968581854,
-            "contentHash": "647986d5c8a6bb962411dd766f67d3b2aeaf369a"
+            "contentHash": "647986d5c8a6bb962411dd766f67d3b2aeaf369a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -625,7 +623,7 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList",
             "isDirectory": true,
             "size": 192,
-            "modifiedTime": 1546961928111,
+            "modifiedTime": 1546968581838,
             "changeTime": 1546551410928,
             "contentHash": "e01c0506695bd47f64f1b902dfc0b816a68c0715",
             "isMetadataFile": false,
@@ -678,14 +676,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsListHelper.js",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/aura/referredApplicationsList/referredApplicationsListHelper.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1490,
             "modifiedTime": 1546968581838,
             "changeTime": 1546968581838,
-            "contentHash": "f223b951977348f5c7bbea9da5c52b8bf6409268"
+            "contentHash": "f223b951977348f5c7bbea9da5c52b8bf6409268",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -766,14 +764,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/ApplicationsController.cls",
         {
+            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/ApplicationsController.cls",
             "isDirectory": false,
-            "size": 2390,
-            "modifiedTime": 1546880384127,
-            "changeTime": 1546880384127,
-            "contentHash": "99d8680bce34cf884de57a46748cfa3e7be071f5",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 2862,
+            "modifiedTime": 1547031823928,
+            "changeTime": 1547031823928,
+            "contentHash": "828724560121f3441abc2ac8104ff03f54f85d90"
         }
     ],
     [

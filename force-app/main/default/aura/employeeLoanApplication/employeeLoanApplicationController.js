@@ -7,7 +7,7 @@
         action.setCallback(this, function(response) {
             var state = response.getState();
             if (state === "SUCCESS") {
-                console.log("Sucess!");
+                console.log("Success!");
                 var applicationsList = response.getReturnValue();
                 
                 if (applicationsList.length > 0) {
@@ -36,6 +36,18 @@
                 console.log("Failed with state: " + state);
             }
         });
+        
+        /* This is how to access current user ID, but it is not working for
+         * Name, Username, FirstName...
+         * 
+        var userId = $A.get("$SObjectType.CurrentUser.Id");
+        var userName = $A.get("$SObjectType.CurrentUser.LastName");
+        var currentUser = $A.get("$SObjectType.CurrentUser");
+        console.log('**** userId: ' + userId);
+        console.log('**** userName: ' + userName);
+        component.set("v.userName", userName);
+        */
+        
         // Send action off to be executed
         $A.enqueueAction(action);
     },
