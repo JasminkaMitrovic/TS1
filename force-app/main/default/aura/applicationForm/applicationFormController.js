@@ -2,6 +2,7 @@
 	clickCreate: function(component, event, helper) {
         var validApplication = component.find('expenseform').reduce(function (validSoFar, inputCmp) {
             // Displays error messages for invalid fields
+            console.log('Validating field');
             inputCmp.showHelpMessageIfInvalid();
             return validSoFar && inputCmp.get('v.validity').valid;
         }, true);

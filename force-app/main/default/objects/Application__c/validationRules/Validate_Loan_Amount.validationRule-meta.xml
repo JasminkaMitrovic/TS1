@@ -2,7 +2,6 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Validate_Loan_Amount</fullName>
     <active>true</active>
-    <errorConditionFormula>Loan_Amount__c  &lt; 1000  ||  Loan_Amount__c &gt; 5000</errorConditionFormula>
-    <errorDisplayField>Loan_Amount__c</errorDisplayField>
+    <errorConditionFormula>Loan_Amount__c  = 300</errorConditionFormula>
     <errorMessage>Loan amount must be between 1000 and 5000.</errorMessage>
 </ValidationRule>

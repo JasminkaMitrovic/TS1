@@ -31,6 +31,9 @@ public with sharing class ReferredApplicationsController {
     @AuraEnabled
     public static Application__c saveApplication(Application__c application) {
         // Perform isUpdatable() checking first, then
+        System.debug('*** Approve or Reject Application ****');
+        // TODO: Validate if the application can be approved, e.g. if there is no 
+        // current Active loan for this person already.
         upsert application;
         return application;
     }
