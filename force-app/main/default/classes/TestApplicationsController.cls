@@ -33,8 +33,7 @@ public class TestApplicationsController {
         application1.Loan_Amount__c = 1800;
         application1.Loan_Period__c = 8;
         application1.Salary__c = 20000;
-        insert application1;
-        
+       
         Application__c savedApp1 = ApplicationsController.saveApplication(application1);
         
         System.assert(application1.Loan_Amount__c == savedApp1.Loan_Amount__c);
@@ -48,8 +47,7 @@ public class TestApplicationsController {
         application1.Loan_Amount__c = 2800;
         application1.Loan_Period__c = 8;
         application1.Salary__c = 20000;
-        insert application1;
-        
+      
         Application__c savedApp1 = ApplicationsController.saveApplication(application1);
         
         System.assert(application1.Loan_Amount__c == savedApp1.Loan_Amount__c);
@@ -69,7 +67,6 @@ public class TestApplicationsController {
         application1.Loan_Amount__c = 1800;
         application1.Loan_Period__c = 8;
         application1.Salary__c = 20000;
-        insert application1;
         
         Application__c savedApp1 = ApplicationsController.saveApplication(application1);
         

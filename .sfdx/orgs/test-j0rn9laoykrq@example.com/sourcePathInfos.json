@@ -814,10 +814,10 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes",
             "isDirectory": true,
             "isMetadataFile": false,
-            "size": 256,
-            "modifiedTime": 1547130180794,
-            "changeTime": 1547130180794,
-            "contentHash": "a3f7c2f9b947e0937b0fd82dd2f5609b91fa232b"
+            "size": 320,
+            "modifiedTime": 1547134151217,
+            "changeTime": 1547134151217,
+            "contentHash": "9ac70facf2eb2fb7c229f496153e13a4dd33928c"
         }
     ],
     [
@@ -1768,14 +1768,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestApplicationsController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestApplicationsController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1547130180793,
             "changeTime": 1547130180793,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -1785,10 +1785,36 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestApplicationsController.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 4288,
-            "modifiedTime": 1547130180794,
-            "changeTime": 1547130180794,
-            "contentHash": "07270dbc13b73f1a73c63f501d2409696f7d9406"
+            "size": 4198,
+            "modifiedTime": 1547134151215,
+            "changeTime": 1547134151215,
+            "contentHash": "4fb67e5d0fe6f7487183979e7984677913c12cd1"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestReferredApplicationsController.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestReferredApplicationsController.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1547134151216,
+            "changeTime": 1547134151216,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestReferredApplicationsController.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestReferredApplicationsController.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1949,
+            "modifiedTime": 1547134151217,
+            "changeTime": 1547134151217,
+            "contentHash": "907bc71553cdadd63fa3e734660070112b2d69e5"
         }
     ]
 ]
