@@ -20,32 +20,28 @@
   
         <!-- CREATE NEW APPLICATION FORM -->
         <form class="slds-form--stacked">          
-           
-            <!--
+         
             <lightning:input type="number" aura:id="expenseform" label="Amount"
                              name="expenseamount"
-                             min="0.1"
+                             min="1000"
+                             max="5000"
                              formatter="currency"
                              step="0.01"
                              value="{!v.newApplication.Loan_Amount__c}"
-                             messageWhenRangeUnderflow="The amount must be between 1000 and 5000."
-                             required="true"/>
--->
-            
-            <lightning:input type="number" aura:id="expenseform" label="Amount"
-                             name="expenseamount"
-                             min="0.1"
-                             formatter="currency"
-                             step="0.01"
-                             value="{!v.newApplication.Loan_Amount__c}"
+                             messageWhenRangeUnderflow="The amount must not be smaller than 1000."
+                             messageWhenRangeOverflow="The amount must not be greater than 5000."  
                              required="true"/>
             
-            
-            <lightning:input aura:id="expenseform" label="Loan period"
+            <lightning:input type="number" aura:id="expenseform" label="Loan period"
                              name="expenseclient"
                              value="{!v.newApplication.Loan_Period__c}"
                              placeholder=""
-                             required="true"/>
+                             required="true"
+                             min="6"
+                             max="12"
+                             messageWhenRangeUnderflow="The number of months must be between 6 and 12."
+                             messageWhenRangeOverflow="The number of months must be between 6 and 12."  
+                            />
             
             <lightning:input type="number" aura:id="expenseform" label="Your salary"
                              name="expenseamount"
