@@ -38,8 +38,7 @@ public with sharing class ReferredApplicationsController {
         return application;
     }
     
-    @AuraEnabled
-    public static Application__c getRating(Application__c application) {
+    public static HttpResponse getRatingFromExternalAgency() {
         System.debug('*** Get Rating ****');
         Http http = new Http();
 		HttpRequest request = new HttpRequest();
@@ -56,11 +55,16 @@ public with sharing class ReferredApplicationsController {
     		for (Object animal: animals) {
         		System.debug(animal);
     		}
-            // application.Credit_R__c = 50;
-            application.Credit_R__c = Math.floor((Math.random() * 100) + 1);
-            
-            upsert application;
+           
 		}
+        return response;
+    }
+    
+    @AuraEnabled
+    public static Application__c getRating(Application__c application) {
+        getRatingFromExternalAgency();
+        application.Credit_R__c = Math.floor((Math.random() * 100) + 1);
+        upsert application;
         return application;
     }
 }

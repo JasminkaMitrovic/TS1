@@ -32,16 +32,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default",
         {
+            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default",
             "isDirectory": true,
-            "size": 576,
-            "modifiedTime": 1546955373998,
-            "changeTime": 1546955373998,
-            "contentHash": "40066f967b96a659e5e75524ec3cd3d5be657b95",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 608,
+            "modifiedTime": 1547138439396,
+            "changeTime": 1547138439396,
+            "contentHash": "bfdc47937e9deb7e06abee4ef25f1bd14c32d518"
         }
     ],
     [
@@ -814,10 +812,10 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes",
             "isDirectory": true,
             "isMetadataFile": false,
-            "size": 320,
-            "modifiedTime": 1547134151217,
-            "changeTime": 1547134151217,
-            "contentHash": "9ac70facf2eb2fb7c229f496153e13a4dd33928c"
+            "size": 384,
+            "modifiedTime": 1547138439433,
+            "changeTime": 1547138439433,
+            "contentHash": "ae5dd6387692d60944f6f78fad9b2270fce81393"
         }
     ],
     [
@@ -853,16 +851,14 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/ReferredApplicationsController.cls",
         {
+            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/ReferredApplicationsController.cls",
             "isDirectory": false,
-            "size": 2683,
-            "modifiedTime": 1547046838012,
-            "changeTime": 1547046838012,
-            "contentHash": "ab1b9202ddcfcf3953fd39358db76a77ac7b6e91",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 2767,
+            "modifiedTime": 1547138439431,
+            "changeTime": 1547138439431,
+            "contentHash": "68ed3fe4dc5a0d25fad634e61cbe3acde07f5653"
         }
     ],
     [
@@ -1781,27 +1777,27 @@
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestApplicationsController.cls",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestApplicationsController.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 4198,
             "modifiedTime": 1547134151215,
             "changeTime": 1547134151215,
-            "contentHash": "4fb67e5d0fe6f7487183979e7984677913c12cd1"
+            "contentHash": "4fb67e5d0fe6f7487183979e7984677913c12cd1",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestReferredApplicationsController.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestReferredApplicationsController.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1547134151216,
             "changeTime": 1547134151216,
-            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -1811,10 +1807,75 @@
             "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/TestReferredApplicationsController.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1949,
-            "modifiedTime": 1547134151217,
-            "changeTime": 1547134151217,
-            "contentHash": "907bc71553cdadd63fa3e734660070112b2d69e5"
+            "size": 2877,
+            "modifiedTime": 1547138439434,
+            "changeTime": 1547138439434,
+            "contentHash": "0e116782b6bebab65eb05f034790d07baa321e57"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/staticresources/getRatingResource.resource-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/staticresources/getRatingResource.resource-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 205,
+            "modifiedTime": 1547138439397,
+            "changeTime": 1547138439397,
+            "contentHash": "55dcfc89f22be17e3f50b7461802be17a7233b8e"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/staticresources/getRatingResource.txt",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/staticresources/getRatingResource.txt",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 68,
+            "modifiedTime": 1547138439419,
+            "changeTime": 1547138439419,
+            "contentHash": "83968352ffdab670e07a67e20451ac6a15fed27c"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/GetRatingCalloutTest.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/GetRatingCalloutTest.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1547138439422,
+            "changeTime": 1547138439422,
+            "contentHash": "acdd80366dfee192a19331bfa686b269d836d68a"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/GetRatingCalloutTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/classes/GetRatingCalloutTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1441,
+            "modifiedTime": 1547138439428,
+            "changeTime": 1547138439428,
+            "contentHash": "c5dcdf153443f9db9cfa69d1af13f62715fafda4"
+        }
+    ],
+    [
+        "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/staticresources",
+        {
+            "state": "u",
+            "sourcePath": "/Users/jasminka/Documents/Projects/TS1/force-app/main/default/staticresources",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1547138439419,
+            "changeTime": 1547138439419,
+            "contentHash": "2eb05cc5c02969691b26fa9350e2f7347aefe2a0"
         }
     ]
 ]

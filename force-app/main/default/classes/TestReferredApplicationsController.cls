@@ -43,4 +43,25 @@ public class TestReferredApplicationsController {
         System.assert(applicationsList.size() == 0);
         
     }
+    
+    @isTest
+    static void testGetRating() {
+        /*
+        Application__c application1 = new Application__c();
+        application1.Loan_Amount__c = 2800;
+        application1.Loan_Period__c = 8;
+        application1.Salary__c = 20000;
+        Application__c savedApp1 = ApplicationsController.saveApplication(application1);
+        
+        List<Application__c> applicationsList = ReferredApplicationsController.getApplications();
+        System.assert(applicationsList.size() == 1);
+        Application__c application = applicationsList[0];
+        
+        System.debug('Before getRating: ' + application.Credit_R__c);
+        Application__c applicationWithCreditRating = ReferredApplicationsController.getRating(application);
+        
+        System.assertNotEquals(0, applicationWithCreditRating.Credit_R__c);
+        System.debug('After getRating: ' + applicationWithCreditRating.Credit_R__c);
+        */
+    }
 }
